@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="cellNo" value="9999999999"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="name" value="Rajesh"/>
+    <parameter name="pwd" value="admin123"/>
+    <parameter name="relShip" value="Brother"/>
+    <parameter name="user" value="Admin"/>
+    <classes>
+      <class name="com.sdet.tests.MyInfoPageTest">
+        <methods>
+          <include name="logout"/>
+          <include name="createEmergencyContact"/>
+        </methods>
+      </class> <!-- com.sdet.tests.MyInfoPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

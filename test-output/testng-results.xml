@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T12:35:10 IST" name="TestSuite" finished-at="2022-03-25T12:35:56 IST" duration-ms="45570">
+    <groups>
+    </groups>
+    <test started-at="2022-03-25T12:35:10 IST" name="Test" finished-at="2022-03-25T12:35:56 IST" duration-ms="45570">
+      <class name="com.sdet.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sdet.tests.HomePageTest@6a400542]" started-at="2022-03-25T12:35:10 IST" name="setUp" finished-at="2022-03-25T12:35:23 IST" duration-ms="12521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoVerification()[pri:0, instance:com.sdet.tests.HomePageTest@6a400542]" started-at="2022-03-25T12:35:23 IST" name="logoVerification" finished-at="2022-03-25T12:35:23 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sdet.tests.HomePageTest@6a400542]" started-at="2022-03-25T12:35:23 IST" name="tearDown" finished-at="2022-03-25T12:35:23 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sdet.tests.HomePageTest -->
+      <class name="com.sdet.tests.MyInfoPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sdet.tests.MyInfoPageTest@21de60b4]" started-at="2022-03-25T12:35:23 IST" name="setUp" finished-at="2022-03-25T12:35:28 IST" duration-ms="4901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginCredCheck(java.lang.String,java.lang.String)[pri:0, instance:com.sdet.tests.MyInfoPageTest@21de60b4]" started-at="2022-03-25T12:35:28 IST" name="loginCredCheck" finished-at="2022-03-25T12:35:33 IST" duration-ms="4360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCredCheck -->
+        <test-method signature="createEmergencyContact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.sdet.tests.MyInfoPageTest@21de60b4]" started-at="2022-03-25T12:35:33 IST" name="createEmergencyContact" finished-at="2022-03-25T12:35:50 IST" duration-ms="17467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brother]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmergencyContact -->
+        <test-method signature="delEmergencyContact()[pri:2, instance:com.sdet.tests.MyInfoPageTest@21de60b4]" started-at="2022-03-25T12:35:50 IST" name="delEmergencyContact" finished-at="2022-03-25T12:35:52 IST" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delEmergencyContact -->
+        <test-method signature="logout()[pri:3, instance:com.sdet.tests.MyInfoPageTest@21de60b4]" started-at="2022-03-25T12:35:52 IST" name="logout" finished-at="2022-03-25T12:35:55 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sdet.tests.MyInfoPageTest@21de60b4]" started-at="2022-03-25T12:35:55 IST" name="tearDown" finished-at="2022-03-25T12:35:56 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sdet.tests.MyInfoPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

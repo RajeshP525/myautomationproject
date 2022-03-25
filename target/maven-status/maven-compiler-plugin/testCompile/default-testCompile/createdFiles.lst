@@ -1,0 +1,8 @@
+com\sdet\utilities\DriverBinariesObject.class
+com\sdet\tests\DashboardPageTest.class
+com\sdet\tests\HomePageTest.class
+com\sdet\page\objects\DashboardPage.class
+com\sdet\page\objects\HomePage.class
+com\sdet\tests\MyInfoPageTest.class
+com\sdet\page\objects\MyInfoPage.class
+com\sdet\utilities\BrowserObject.class

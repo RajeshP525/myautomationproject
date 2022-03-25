@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+  <test name="Test">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="user" value="Admin"></parameter>
+    <parameter name="pwd" value="admin123"></parameter>
+    <parameter name="name" value="Rajesh"></parameter>
+	<parameter name="relShip" value="Brother"></parameter>
+	<parameter name="cellNo" value="9999999999"></parameter>
+    <classes>
+      <class name="com.sdet.tests.HomePageTest"/>
+	  <class name="com.sdet.tests.MyInfoPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
